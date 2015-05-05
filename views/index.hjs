@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<div>
+  		<h1>{{ title }}</h1>
+	    <form action="/getInput" method="post">
+			Enter Employee Id:<br>
+			<input type="text" name="empID" value="">
+			<br>
+      <br>
+			<button type="submit">Submit</button>
+			<br>
+		</form>
+  	</div>
+  	<br>
+  	<div id="displayResults">{{displayResults}}</p> </div>
+    
+  </body>
+</html>
