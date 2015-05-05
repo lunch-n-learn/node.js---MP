@@ -1,5 +1,7 @@
 # node.js---MP
 Pre-requisites:
+---------------
+
 1. Install node
 2. Open Node.js command prompt, then Install web application framework called express globally (-g option), not specific to your project
 npm install –g express-generator
